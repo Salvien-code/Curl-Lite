@@ -11,7 +11,6 @@ import (
 )
 
 func init() {
-
 	if len(os.Args) != 2 {
 		log.Fatalln("Usage: ./main <url>")
 	}
